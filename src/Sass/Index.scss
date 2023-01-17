@@ -4,12 +4,19 @@ $fuscia : #D16680;
 $gris : #565656;
 $negro: #000000;
 $blanco:#ffff;
-
-
+* {
+    font-family: 'Cambo', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import './header.scss';
 @import './global.scss';
-@import './footer.scss';
+@import './redes.scss';
 @import './home.scss';
-@import './collage.scss';
-@import './portfolio.scss';
+@import './about.scss';
 @import './skill.scss';
+@import './portfolio.scss';
 @import './contact.scss';
+
+
+

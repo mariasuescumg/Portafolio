@@ -1,0 +1,25 @@
+.home{
+    background-image:url(../assets/image/imagen1.jpg) ;
+    background-color: $rosa transparent ;
+    margin-bottom: 50px;
+    height: 50vh;
+    object-fit: cover;
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    &-text{
+        width: 50%;
+        color: #ffff;
+        font-size: 25px;
+    }
+}
+
+

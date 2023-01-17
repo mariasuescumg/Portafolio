@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4%;
+  
+    &-logo {
+      width: 10%;
+    }
+  
+    &-nav {
+  
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      
+  
+      &-list {
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+        justify-content:end;   
+      }
+
+}
+}

@@ -1,0 +1,33 @@
+.skills{
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
+
+.skills-img{
+    display: flex;
+    flex-direction: column ;
+    align-content: center;
+    margin: auto;
+    gap: 40px;
+    text-align: center;
+
+    & div{
+        
+        overflow: hidden;
+        margin: 20px;
+    
+        & img{
+            width: 60px;
+            height: 60px;
+            padding: 10px;
+            transform: 0.5s;
+            object-fit: cover;
+        }
+
+        img:hover{
+            scale: 1.2;
+        }
+    }
+}

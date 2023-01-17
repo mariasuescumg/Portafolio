@@ -1,0 +1,34 @@
+.portafolio-card{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 5%;
+    width: 100%;
+    margin-bottom: 10%;
+    gap: 10%;
+}
+
+.portafolio-img{
+    background-image: url(../assets/image/imgen2.jpg);
+    object-fit: cover;
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    
+    & h1 {
+        color: black;
+        background: $rosa;
+       
+    }
+}
+
+.portafolio-colort{
+    background-color: $rosa transparent 10%;
+    position:absolute;
+   
+}
